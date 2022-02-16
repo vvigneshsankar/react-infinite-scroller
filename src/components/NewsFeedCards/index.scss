@@ -1,0 +1,56 @@
+@import "../../styles/variable";
+
+.user-card {
+  background-color: $app-bg;
+  padding: 25px;
+  margin: 10px 0px 10px 0px;
+
+  .user-name {
+   font-family: 'Roboto-Bold';
+  }
+  .user-info {
+    position: relative;
+  }
+
+  .settings {
+    float: right;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .sub-info {
+    color: $font-color;
+    top: 45px;
+    font-size: 12px;
+    left: 70px;
+    display:inline;
+    position: absolute;
+  }
+
+  .updated-at {
+    color: $font-color;
+    top: 45px;
+   position: absolute;
+   font-size: 12px;
+    right: 5px;
+  }
+
+  .post {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .feedback-icons {
+    margin: 10px;
+    padding: 10px 15px 10px;
+    height: 10px;
+    color: $font-color;
+    .icon{
+      font-size: 18px;
+      padding: 0px 5px 0px 5px;
+    }
+    .like {
+      color: #F93366;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+@import "../../styles/variable";
+
+.profile-container {
+  margin: 0px 15px 0px;
+  background-color: $app-bg;
+  height: 750px;
+  font-size: 14px;
+  width: 24vw;
+
+  .icon {
+    font-size: 18px;
+    padding: 0px 5px 0px 5px;
+  }
+  .app-color {
+    color: $btn-color;
+  }
+
+  .edit {
+    float: right;
+    margin: 20px;
+    button {
+      color: $font-color;
+      border: none;
+      outline: none;
+      background-color: transparent;
+    }
+  }
+
+  .info-justifier {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .avatar {
+      margin: 20px 0px 5px 0px;
+    }
+    .user-name {
+      margin: 25px 0px 5px 0px;
+      font-family: "Roboto-Bold";
+      font-size: 18px;
+    }
+    .designation {
+      color: $font-color;
+    }
+    .linked-link {
+      display: flex;
+      padding: 20px 40px 20px 40px;
+      color: $font-color;
+      width: 250px;
+      .link {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+      span {
+        color: $btn-color;
+        padding: 2px;
+      }
+    }
+  }
+  .connections-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .connections-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .vr {
+    border-right: 1px solid $font-color;
+    height: 100px;
+  }
+  .figure {
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+  }
+  .label {
+    color: $font-color;
+    font-size: 14px;
+  }
+  .divider {
+    border-bottom: 1px solid $line-color;
+    width: 100%;
+  }
+
+  .marketing {
+    margin: 50px 0px 20px 0px;
+    color: $font-color;
+  }
+
+  .premium {
+    button {
+      outline: none;
+      border: none;
+      background-color: $btn-bg;
+      color: $btn-color;
+      padding: 20px;
+      border-radius: 25px;
+    }
+  }
+}

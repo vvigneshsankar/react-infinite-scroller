@@ -1,0 +1,27 @@
+@import './styles/variable';
+
+.container {
+  margin: 10px 0px 0px 0px;
+  background-color: #f5f7f9;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  height: auto;
+  width: 52vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.toast {
+  z-index: 999;
+  position:fixed; 
+  top:100px;
+  left:50%;
+  background-color:grey;
+  padding:10px;
+  border-radius: 5px;
+  color:whitesmoke ;
+}

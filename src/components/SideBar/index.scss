@@ -1,0 +1,57 @@
+@import "../../styles/variable";
+
+.aside-container {
+  margin: 0px 15px 0px;
+  background-color: $app-bg;
+  height: 550px;
+  font-size: 14px;
+  width: 24vw;
+
+  .heading-container {
+    display: flex;
+    justify-content: center;
+  }
+  .heading {
+    margin: 20px;
+    font-size: 18px;
+    font-family: "Roboto-Bold", sans-serif;
+  }
+  .divider {
+    border-bottom: 1px solid $line-color;
+    width: 100%;
+  }
+  .suggestions-container {
+    display: flex;
+    padding:0px 10px 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    .suggestions {
+      display: flex;
+      font-family: "Roboto-Bold";
+      position: relative;
+      margin: 20px;
+      height: 80px;
+      .bio {
+        margin: 20px 0px 20px 0px;
+        display: flex;
+        flex-direction: column;
+        .suggsted-user-name{
+          font-family: 'Roboto-Bold';
+          font-size: 14px;
+        }
+        .designation {
+          font-size: 12px;
+        }
+      }
+    }
+    button {
+      margin:0px 10px 0px 10px;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      color: $btn-color;
+      font-size: 18px;
+    }
+  }
+}
