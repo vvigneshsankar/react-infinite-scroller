@@ -1,0 +1,56 @@
+@import "../../styles/variable";
+
+.header-container {
+  background: $app-bg;
+  position: sticky;
+  height: 40px;
+  padding: 25px 20px 10px 20px;
+  position: relative;
+  .header-items {
+    width: 100%;
+    display: flex;
+  }
+  .links {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    .icon {
+        font-size: 18px;
+      padding: 0px 5px 0px 5px;
+      color: $font-color;
+    }
+    .active {
+        color: $btn-color;
+    }
+    .linked {
+        width:25px;
+        height:25px;
+        color:$font-color
+    }
+    a {
+      text-decoration: none;
+      color: $font-color;
+
+    }
+    .search{
+        input,input:focus  {
+            outline: none;
+            border: none;
+            resize: none;
+          }
+        border-bottom: 1px solid $font-color;
+    }
+  }
+  span {
+    font-size: 24px;
+    padding: 0px 2px 0px 2px;
+    color: $btn-color;
+  }
+  .avatar {
+    display: flex;
+    top: 2%;
+    position: absolute;
+    right: 25px;
+  }
+}
